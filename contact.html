@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Assets/CSS/master.css">
+    <link href="Assets/CSS/fontawesome/css/all.css" rel="stylesheet">
+    <script type="text/javascript" src="Assets/scripts/menuscroll.js"></script>
+    <title>L'instrument - bass.com</title>
+  </head>
+  <body>
+    <div class="wrapper"> <!-- Background header image-->
+      <header>
+        <div class="am-bg2"> <!-- Background header image-->
+          <div id="navbar" class="am-navbar">
+            <div class="am-logo">
+              <a href="index.html">
+                <img width="70px" height="70px" src="Assets/Images/logobass2.png" alt="Logo bass.com">
+              </a>
+            </div>
+              <nav>
+                <div class="am-menu">
+                  <div class="menu-item">
+                    <a href="index.html">Accueil</a>
+                  </div>
+                  <div class="menu-item">
+                    <a href="instrument.html">L'instrument</a>
+                  </div>
+                  <div class="menu-item">
+                    <a href="histoire.html">Histoire</a>
+                  </div>
+                  <div class="menu-item">
+                    <a href="bassistes.html">Bassistes</a>
+                  </div>
+                  <div class="menu-item">
+                    <a href="contact.html">Contact</a>
+                  </div>
+                  <!-- Socials -->
+                  <div class="menu-item am-socials">
+                    <a href="https://www.facebook.com/alexmorissette4" target="_blank">
+                      <i class="fab fa-facebook"></i>
+                    </a>
+                  </div>
+                  <div class="menu-item am-socials">
+                    <a href="https://www.youtube.com/channel/UCtHzxxrL0uprxZ_MzJsphMA" target="_blank">
+                      <i class="fab fa-youtube"></i></a>
+                  </div>
+                  <div class="menu-item am-socials">
+                    <a href="https://www.linkedin.com/in/alexmorissette/" target="_blank">
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          <div class="header2">
+              <h1>CONTACT</h1>
+          </div>
+        </div>
+      </header>
+    <main>
+      <div class="container-center">
+        <div class="center">
+          <h2>ÉCRIVEZ-MOI !</h2>
+        </div>
+      </div>
+      <div class="container-center">
+        <form class="" action="contact.html" method="get">
+          <fieldset>
+            <legend>Vos coordonnées</legend>
+            <div class="center">
+              <div>
+                <label class="am-label" for="prenom">Prénom :</label>
+                <input class="am-input" type="text" id="prenom" name="prenom" value="">
+              </div>
+              <div>
+                <label class="am-label" for="prenom">Nom :</label>
+                <input class="am-input" type="text" id="prenom" name="prenom" value="">
+              </div>
+              <div>
+                <label class="am-label" for="email">Courriel :</label>
+                <input id="email-valid" type="email" name="email" value="" placeholder="alias@site.com" required>
+              </div>
+            </div>
+          </fieldset>
+          <hr>
+          <fieldset>
+            <legend>Pour en savoir plus sur vous...</legend>
+            <div class="">
+              <div class="">
+                <label for="niveau">Quel est votre niveau de connaissance de la basse ?</label>
+              </div>
+              <div class="">
+                <select class="am-select" id="niveau" name="niveau">
+                  <option value="ignorant">Ignorant</option>
+                  <option value="debutant">Débutant</option>
+                  <option value="intermediaire">Intermédiaire</option>
+                  <option value="avance">Avancé</option>
+                  <option value="professionnel">Professionnel</option>
+                </select>
+              </div>
+            </div>
+            <div class="">
+              <div class="">
+                <label for="marque">Si vous êtes bassiste, quelle(s) marque(s) de basse(s) possédez-vous?</label>
+              </div>
+              <div class="">
+                <input type="checkbox" id="fender" name="marque1" value="Fender">
+                <label for="fender">Fender</label>
+              </div>
+              <div class="">
+                <input type="checkbox" id="musicman" name="marque2" value="MusicMan">
+                <label for="musicman">MusicMan</label>
+              </div>
+              <div class="">
+                <input type="checkbox" id="gibson" name="marque3" value="Gibson">
+                <label for="gibson">Gibson</label>
+              </div>
+              <div class="">
+                <input type="checkbox" id="autre" name="marque4" value="Autre">
+                <label for="autre">Autre</label>
+              </div>
+              <div class="">
+                <input type="checkbox" id="pas-bassiste" name="marque5" value="pas-bassiste">
+                <label for="pas-bassiste">Aucune (je ne suis pas bassiste)</label>
+              </div>
+            </div>
+          </fieldset>
+          <hr>
+          <fieldset class="center">
+            <legend>Laissez-moi un message</legend>
+            <textarea
+              name="message"
+              rows="8" cols="80">
+            </textarea>
+            <div class="center">
+              <input type="submit" class="button1" name="formulaire-contact" value="Envoyer">
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="to-top">
+          <a href="#">
+            <i class="fas fa-arrow-up"></i>
+          </a>
+        </div>
+      </div>
+      <!-- copyright-->
+    <div class="container-center">
+      <div class="copyright">
+        <p>
+          Copyright @ AMW - bass.com 2021
+        </p>
+      </div>
+    </div>
+    </footer>
+  </div>
+  </body>
+</html>
